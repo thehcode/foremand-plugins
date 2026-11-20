@@ -1,0 +1,16 @@
+{
+  "name": "foremand",
+  "owner": {
+    "name": "Foremand"
+  },
+  "plugins": [
+    {
+      "name": "foremand",
+      "source": "./claude",
+      "description": "ForeMail and ForeMemory in Claude Code, plus the /foremand skill."
+    }
+  ],
+  "metadata": {
+    "description": "Foremand for Claude Code: agent mail, saved memory and the /foremand skill."
+  }
+}

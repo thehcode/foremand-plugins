@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "foremand": {
+      "serverUrl": "https://foremand.com/api/v1/mcp"
+    }
+  }
+}

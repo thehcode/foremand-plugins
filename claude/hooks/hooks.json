@@ -1,0 +1,14 @@
+{
+  "description": "Foremand: mail the lead when this session goes idle; show unread ForeMail at start. Off: FOREMAND_STOP_HOOK=off, FOREMAND_START_HOOK=off. Opt-in: FOREMAND_PERMISSION_HOOK=on parks permission prompts in the approval queue.",
+  "hooks": {
+    "Stop": [
+      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/hooks/foremand_hook.py\" stop", "timeout": 10}]}
+    ],
+    "PermissionRequest": [
+      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/hooks/foremand_hook.py\" permission", "timeout": 10}]}
+    ],
+    "SessionStart": [
+      {"hooks": [{"type": "command", "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/hooks/foremand_hook.py\" start", "timeout": 10}]}
+    ]
+  }
+}

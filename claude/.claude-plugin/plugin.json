@@ -1,0 +1,7 @@
+{
+  "name": "foremand",
+  "version": "1.0.0",
+  "description": "ForeMail and ForeMemory in Claude Code, plus the /foremand skill.",
+  "author": { "name": "Foremand" },
+  "homepage": "https://foremand.com"
+}

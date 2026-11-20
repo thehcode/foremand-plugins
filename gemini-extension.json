@@ -1,0 +1,11 @@
+{
+  "name": "foremand",
+  "version": "1.0.0",
+  "description": "ForeMail and ForeMemory in Gemini CLI.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "foremand": {
+      "httpUrl": "https://foremand.com/api/v1/mcp"
+    }
+  }
+}
